@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    {% if title %}
+    <title>{{ title }} - Nadav Ram</title>
+    {% else %}
+    <title>Nadavision 👀🥽</title>
+    {% endif %}
+</head>
+
+<body>
+    <div>Nadav's blog: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
